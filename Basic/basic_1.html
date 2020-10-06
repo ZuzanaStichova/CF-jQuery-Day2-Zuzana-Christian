@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <style>
+            div {
+                display: flex;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+        </style>
+        <title>Basic exercise</title>
+    </head>
+    <body>
+
+    <!-- Images -->
+        <div>
+            <img src="bells.png" alt="bells">
+            <img src="santa.png" alt="santa">
+            <img src="box.png" alt="box">
+        </div>
+        <p></p>
+
+    <!-- jQuery script -->
+        <script>
+            $(document).ready(function()
+            {
+                $('img').on('click',function(){
+                    switch($(this).attr("src"))
+                    {
+                        case 'bells.png':
+                            $('p').text('You clicked on Christmas bells');
+                            break;
+                        case 'santa.png':
+                            $('p').text('You clicked on Santa Claus');
+                            break;
+                        case 'box.png':
+                            $('p').text('You clicked on Christmas present');
+                            break;                   
+                        default:
+                            $('p').text('You clicked on nothing');
+                    }
+                })
+            })
+        </script>
+
+
+    </body>
+</html>

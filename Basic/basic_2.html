@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <style>
+            div {
+                width: 50%;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            img {
+                width: 26%;
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    
+    <body>
+        <div>
+           <img src="box.png" class="box" alt="b">
+           <img src="santa.png" class="santa" alt="s">
+           <img src="box.png" class="box" alt="b">
+           <img src="santa.png" class="santa" alt="s">
+           <img src="box.png" class="box" alt="b">
+           <img src="santa.png" class="santa" alt="s">
+           <img src="box.png" class="box" alt="b">
+           <img src="santa.png" class="santa" alt="s">
+           <img src="box.png" class="box" alt="b">
+        </div>
+            <p></p>
+
+        <script>
+            $(document).ready(function()
+            {
+
+                // Option 1: click according src
+                // $('img').on('click',function()
+                // {
+                //     if ($(this).attr('src') == 'santa.png') 
+                //     {
+                //         $(this).css("visibility","hidden");
+                //     } 
+                // }) 
+
+
+                // Option2: click on class Santa
+                $('.santa').on('click',function()
+                {
+                    $(this).css('visibility','hidden');
+                })
+            });
+        </script>
+    </body>
+</html>

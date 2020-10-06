@@ -1,0 +1,25 @@
+var members = `[{"name": "Mickey", 
+    "image": "./img/1.jpg",
+    "job": "painter",
+    "status": "son"
+    },
+    {"name": "Donald", 
+    "image": "img/2.png",
+    "job": "singer",
+    "status": "family friend"
+    },
+    {"name": "Simba",
+    "image": "img/3.jpg", 
+    "job": "runner",
+    "status": "son"
+    },
+    {"name": "Yogi",
+    "image": "img/4.png", 
+    "job": "chief",
+    "status": "family friend"
+    },
+    {"name": "Fred",
+    "image": "img/5.png",
+    "job": "bowling player", 
+    "status": "father"
+    }]`
