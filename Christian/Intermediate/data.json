@@ -1,0 +1,40 @@
+var data = `[{
+	"name" : "Mom",
+	"relation" : "Mother",
+	"img" : "image/mom.jpg"
+},
+{	"name" : "Dad",
+	"relation" : "Father",
+	"img" : "image/dad.jpg"
+
+},
+
+{	"name" : "Bro",
+	"relation" : "Brother",
+	"img" : "image/brother.jpg"
+
+},
+
+{	"name" : "Sis",
+	"relation" : "Sister",
+	"img" : "image/sister.jpg"
+
+},
+
+{	"name" : "Sista",
+	"relation" : "Sister",
+	"img" : "image/sister2.jpg"
+
+},
+
+{	"name" : "Amigoo",
+	"relation" : "Friend",
+	"img" : "image/friend.jpg"
+
+},
+
+{	"name" : "Amigorinho",
+	"relation" : "Friend",
+	"img" : "image/friend1.jpg"
+
+}]`
