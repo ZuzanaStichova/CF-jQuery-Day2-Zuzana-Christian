@@ -1,0 +1,23 @@
+
+.grid3x3{
+ width:600px;
+ height:600px;
+ clear:both;
+}
+.grid3x3>a{
+ width:200px;
+ height:200px;
+ float:left;
+ line-height:200px;
+ text-align:center;    
+}
+.grid3x3>a>img{
+ display:inline-block;
+ vertical-align:middle;
+ max-width:80%;
+ max-height:80%;
+}
+
+.complete{
+	display: none;
+}
